@@ -1,0 +1,378 @@
+/* start font */
+
+@import url("https://fonts.googleapis.com/css2?family=Noto+Kufi+Arabic:wght@300;400;500;600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Tajawal:wght@300;400&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700;800&display=swap");
+/* end font */
+
+body {
+  background-image: url(/attachment/image5.jpg);
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+body,
+html {
+  height: 100%;
+  margin: 0;
+}
+
+/* start navbar */
+.navbar-ul {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  background-color: rgba(0, 0, 0, 0.5);
+  color: white;
+  justify-content: center;
+  direction: rtl;
+  list-style: none;
+}
+
+.logo {
+  width: 250px;
+  padding-left: 20px;
+}
+
+.navbar-ul li {
+  height: 95%;
+  text-align: center;
+  justify-content: center;
+  display: flex;
+  align-items: center;
+  padding: 0 14px;
+  margin: 0 10px;
+}
+
+.navbar-ul li:hover {
+  background-color: #97979796;
+  cursor: pointer;
+}
+
+.navbar-ul li a {
+  font-family: "Noto Kufi Arabic", sans-serif;
+  font-weight: 600;
+}
+
+.active {
+  background-color: #97979796;
+}
+
+/* end navbar */
+.op {
+  opacity: 0.78;
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  background-color: #000000bf;
+  height: 100%;
+  z-index: -1;
+  position: fixed;
+}
+/* start welcome  */
+.welcome {
+  width: 95%;
+  height: 450px;
+  /* background-color: red; */
+  top: 100px;
+  position: relative;
+  margin: auto;
+  flex-wrap: wrap;
+  display: flex;
+  justify-content: center;
+
+  -webkit-user-select: none;
+  -webkit-touch-callout: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+.company-name {
+  width: 95%;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  text-align: center;
+  margin: 50px auto;
+}
+
+.c-name {
+  font-size: 30px;
+  font-weight: 500;
+}
+.ar {
+  font-family: "Noto Kufi Arabic", sans-serif;
+  margin-bottom: 7px;
+}
+.en {
+  font-family: "Playfair Display", serif;
+  margin-top: 0;
+}
+
+.more-info {
+  width: 95%;
+  /* background-color: green; */
+  display: block;
+  height: fit-content;
+  display: flex;
+  justify-content: center;
+}
+
+.more-click {
+  width: 120px;
+  height: 50px;
+  background-color: #e39838;
+  color: white;
+  font-family: "Noto Kufi Arabic", sans-serif;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+  cursor: pointer;
+  border-radius: 2px;
+}
+/* end welcome */
+
+/* start about */
+.about {
+  top: 100px;
+  position: relative;
+}
+.side-logo {
+  align-items: center;
+  width: 315px;
+  height: 315px;
+  display: flex;
+  clip-path: polygon(0% 100%, 0% 0%, 100% 50%);
+  background-color: white;
+}
+
+.about-logo {
+  width: 300px;
+  height: 300px;
+  object-fit: cover;
+  clip-path: polygon(0% 100%, 0% 0%, 100% 50%);
+}
+
+.box-center {
+  height: 300px;
+  width: 60%;
+  /* background-color: red; */
+  float: right;
+  margin: 0 30px;
+  position: relative;
+}
+
+.box-title {
+  width: 100%;
+  height: 40px;
+  /* background-color: aliceblue; */
+  display: flex;
+  align-items: center;
+  overflow: hidden;
+  direction: rtl;
+}
+.box-content {
+  width: 100%;
+  height: 90%;
+  /* background-color: green; */
+}
+
+.box-title span {
+  width: 15px;
+  display: block;
+  height: 60px;
+  background-color: #e39838;
+  margin: 0 5px -12px;
+  transform: rotate(343deg);
+  float: right;
+}
+
+.box-title span:nth-child(2) {
+  background-color: white;
+}
+
+.box-title p {
+  font-family: "Noto Kufi Arabic", sans-serif;
+  font-size: 35px;
+  font-weight: 600;
+  margin-right: 20px;
+  color: white;
+}
+
+.box-content p {
+  font-family: "Tajawal", sans-serif;
+  font-weight: 400;
+  font-size: 20px;
+  color: white;
+  direction: rtl;
+  margin: 20px 15px 0 0;
+  line-height: 1.5;
+}
+
+/* end about */
+
+/* start group */
+.group-logo {
+  font-size: 400px;
+  color: #e39838;
+  position: fixed;
+  top: 45%;
+  left: -113px;
+  opacity: 0.7;
+  bottom: -65px;
+  left: -130px;
+}
+
+.side-logo-gruop {
+  align-items: center;
+  width: 315px;
+  height: 315px;
+  display: flex;
+}
+/* end group */
+
+/* start services */
+
+.container {
+  width: 95%;
+  /* background-color: red; */
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(49%, 1fr));
+  top: 50px;
+  position: relative;
+  margin: auto;
+  gap: 15px;
+}
+
+.service {
+  border-radius: 15px;
+  overflow: hidden;
+  min-height: 250px;
+  background-color: white;
+  display: flex;
+  flex-direction: row-reverse;
+  border: 1px solid rgb(136, 136, 136);
+}
+
+.container .service img {
+  width: 30%;
+  height: 100%;
+  float: right;
+  object-fit: cover;
+}
+
+.header {
+  color: black;
+  text-align: center;
+  font-family: "Noto Kufi Arabic", sans-serif;
+  font-weight: 500;
+}
+
+.text {
+  color: gray;
+  font-family: "Tajawal", sans-serif;
+  font-size: 15px;
+  text-align: end;
+  margin-right: 5px;
+}
+
+/* end services */
+
+/* start small navbar */
+#check-navbar {
+  display: none;
+}
+.label-navbar {
+  color: #e39838;
+  font-size: 25px;
+  display: none;
+  top: 12px;
+  position: absolute;
+}
+
+.side-box {
+  opacity: 1;
+  width: 100%;
+  background-color: black;
+  height: fit-content;
+  top: 50px;
+  position: absolute;
+  align-items: center;
+  text-align: center;
+  border-bottom: 5px solid #e39838;
+  z-index: 1;
+  overflow: hidden;
+  left: -101%;
+  transition: all 0.6s;
+}
+
+.side-navbar-ul {
+  text-decoration: none;
+  list-style: none;
+  color: white;
+  font-family: "Noto Kufi Arabic", sans-serif;
+  font-weight: 600;
+  padding: 0;
+}
+
+.side-navbar-ul li {
+  padding: 10px;
+}
+
+.side-navbar-ul li {
+  -webkit-user-select: none;
+  -webkit-touch-callout: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+.side-navbar-ul li:hover {
+  color: #e39838;
+  cursor: pointer;
+}
+
+.side-active {
+  color: #e39838;
+}
+
+/* end small navbar */
+
+/* start contact */
+.contact {
+  border-radius: 10px;
+  background-color: #cbcbcbc2;
+  top: 100px;
+  position: relative;
+  height: 350px;
+  width: 95%;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  max-width: 95% !important;
+}
+
+.container-contact {
+  margin: auto;
+  width: 95%;
+}
+
+.title-consultation {
+  font-family: "Noto Kufi Arabic", sans-serif;
+  font-weight: 600;
+  color: white;
+  text-align: center;
+  font-size: 31px;
+  top: 85px;
+  position: relative;
+}
+/* end contact */

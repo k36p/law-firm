@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Style -->
+
+    <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" href="/css/responsive.css">
+    <link rel="stylesheet" href="/css/normalize.css">
+
+    <!-- Icons -->
+
+    <script src="https://kit.fontawesome.com/503befbdb7.js" crossorigin="anonymous"></script>
+
+    <!-- Tittle -->
+
+    <title>Law Firm.</title>
+    <!-- JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+        crossorigin="anonymous"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+
+</head>
+
+<body style="background-image: url(/attachment/image3.jpg);">
+    <!-- start navbar -->
+    <ul class="navbar-ul">
+
+        <img src="/attachment/logo.png" class="logo">
+        <li onclick="location.href='/index.html'"><a>الرئيسية</a></li>
+        <li onclick="location.href='/about.html'"><a>من نحن</a></li>
+        <li onclick="location.href='/group.html'"><a>فريق العمل</a></li>
+        <li onclick="location.href='/our-vision.html'"><a>رؤيتنا</a></li>
+        <li onclick="location.href='/services.html'"><a>خدماتنا</a></li>
+        <li class="active"><a>أُحصل على إستشارة</a></li>
+
+    </ul>
+
+    <!-- start small -->
+
+    <input type="checkbox" id="check-navbar" class="check-if">
+    <label for="check-navbar" class="label-navbar"><i class="fa-solid fa-bars-staggered"></i></label>
+
+    <div class="side-box">
+
+        <ul class="side-navbar-ul">
+            <li onclick="location.href='/index.html'"><a>الرئيسية</a></li>
+            <li onclick="location.href='/about.html'"><a>من نحن</a></li>
+            <li onclick="location.href='/group.html'"><a>فريق العمل</a></li>
+            <li onclick="location.href='/our-vision.html'"><a>رؤيتنا</a></li>
+            <li onclick="location.href='/services.html'"><a>خدماتنا</a></li>
+            <li class="side-active"><a>أُحصل على إستشارة</a></li>
+        </ul>
+
+    </div>
+
+    <!-- end small -->
+    <!-- end navbar -->
+
+    <div class="op"></div>
+
+    <!-- start consultation -->
+
+    <div class="title-consultation">
+        <p>طلب إستشارة</p>
+    </div>
+
+    <div class="contact">
+
+        <div class="message-box">
+
+            <div class="container-contact">
+                <!-- Add your own form endpoint URL here -->
+                <form action="" method="POST" target="_blank" class="mt-5">
+
+                    <div class="row">
+                        <div class="col">
+                            <div class="form-group">
+                                <div class="input-group">
+                                    <div class="input-group-prepend">
+                                        <span class="input-group-text bg-white rounded-end-0">
+                                            <i class="fa fa-user"></i>&nbsp
+                                        </span>
+                                    </div>
+                                    <input name="name" type="name" placeholder="الإسم"
+                                        class="form-control shadow-none border-left-0" required>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col">
+                            <div class="form-group">
+                                <div class="input-group">
+                                    <div class="input-group-prepend">
+                                        <span class="input-group-text bg-white rounded-end-0">
+                                            <i class="fa fa-envelope"></i>&nbsp
+                                        </span>
+                                    </div>
+                                    <input name="email" type="email" placeholder="البريد"
+                                        class="form-control shadow-none border-left-0" required>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="form-group  mt-2">
+                        <textarea class="form-control shadow-none" dir="rtl" id="message" rows="5"
+                            placeholder="الإستشارة" required></textarea>
+                    </div>
+
+                    <button type="submit" class="btn btn-primary float-right mt-2">
+                        <i class="fa fa-paper-plane"></i>
+                        إرسال
+                    </button>
+
+                </form>
+            </div>
+
+        </div>
+    </div>
+    </div>
+
+    <!-- end consultation -->
+
+</body>
+
+</html>
